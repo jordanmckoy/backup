@@ -1,0 +1,33 @@
+{
+    "databases": [
+        {
+            "host": "host",
+            "user": "user",
+            "password": "pass",
+            "names": [
+                "db1",
+                "db2"
+            ],
+            "backupPath": "C:\\Backups\\Databases",
+            "retention": 30
+        },
+        {
+            "host": "host",
+            "user": "user",
+            "password": "pass",
+            "names": [
+                "db1",
+                "db2"
+            ],
+            "backupPath": "C:\\Backups\\Databases",
+            "retention": 30
+        }
+    ],
+    "panel": {
+        "url": "pterodactyl_panel_url",
+        "key": "pterodactyl_api_key",
+        "serverId": ["id1","id2"],
+        "backupPath": "C:\\Backups\\Worlds",
+        "retention": 7
+    }
+}
